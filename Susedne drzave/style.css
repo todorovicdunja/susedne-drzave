@@ -1,0 +1,98 @@
+body {
+    background-color:khaki;
+}
+h1 {
+    color:rgb(12, 85, 12);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+h2 {
+    color:rgb(12, 85, 12);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+p {
+    color:rgb(12, 85, 12);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p1 {
+    color:rgb(12, 85, 12);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+p2 {
+    color:rgb(12, 85, 12);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+   
+}
+
+div.meni {
+    background-color:hsl(98, 52%, 61%);
+    margin-top:10px;
+    height: 58px;
+    padding-left: 10px;
+    text-align: center;
+    z-index:1; 
+}
+
+a:link, a:visited { 
+    color:rgb(12, 85, 12);
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    display:inline-block;
+    text-decoration:none;
+    text-align:center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 70px;
+    padding-right: 70px;
+    
+}
+a:hover, a:active {
+    color:white;
+    background-color:rgb(14, 87, 26); 
+}
+
+div.container {
+    width:600px;
+    height: 670px;
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    border:3px solid rgb(14, 87, 26);
+}
+
+.mapa {
+    width:600px;
+    height:670px;
+    position: absolute;
+    z-index: -2;
+}
+
+div.slicica {
+    position:fixed;
+    width:70px;
+    height:60px;
+    text-align: center;
+    
+}
+
+.ikonica {
+    width:60px;
+    height:40px;
+    
+}
